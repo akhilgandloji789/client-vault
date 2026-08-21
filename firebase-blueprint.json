@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "entities": {
+    "users": {
+      "title": "User Profile",
+      "description": "Registered freelancers and clients accessing ClientVault",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string", "enum": ["freelancer", "client"] },
+        "companyName": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["email", "name", "role"]
+    },
+    "files": {
+      "title": "Vault File Deliverable",
+      "description": "Encrypted file metadata and payload stored in client workspace",
+      "type": "object",
+      "properties": {
+        "fileName": { "type": "string" },
+        "fileSize": { "type": "number" },
+        "fileType": { "type": "string" },
+        "mimeType": { "type": "string" },
+        "uploadedAt": { "type": "string" },
+        "uploadedBy": { "type": "string" },
+        "userId": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "projectTag": { "type": "string" },
+        "notes": { "type": "string" },
+        "downloads": { "type": "number" },
+        "fileData": { "type": "string" }
+      },
+      "required": ["fileName", "fileSize", "fileType", "uploadedAt", "userId"]
+    }
+  }
+}

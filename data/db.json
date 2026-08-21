@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "user_designer_1",
+      "email": "designer@clientvault.com",
+      "passwordHash": "47dd75ab11f707a4028f70cf5e637fdc4852eb8ed04c00830e54d5569118de619c9a772153b209d08a6a9a3252547871a5ae942aedd73f0d33c45c00a6d0734e",
+      "salt": "dad2da9d16b396ff40093ba06b7949b2",
+      "name": "Elena Rostova",
+      "role": "freelancer",
+      "companyName": "Rostova Studio",
+      "createdAt": "2026-07-21T10:27:02.240Z"
+    },
+    {
+      "id": "user_client_1",
+      "email": "client@acmecorp.com",
+      "passwordHash": "392ad3919787a9845d480474b7fd301ac2f73318814522dfbe732e03fdd1d28fddafb2b022d015fb16f52bed50eeacd6f806aee6513a8d0e7d4d44b0edc0e3c1",
+      "salt": "f0c6b8537ea3ef9e4317c253bb204467",
+      "name": "Marcus Vance",
+      "role": "client",
+      "companyName": "Acme Innovations",
+      "createdAt": "2026-07-31T10:27:02.241Z"
+    },
+    {
+      "id": "user_1787221772008_8f8be3e4",
+      "email": "akhilgandloji789@gmail.com",
+      "passwordHash": "529367edf3884ddec7444422c1a855f90ea6e8c21caca791247763795233ee994f0d8df8035305906c911711e27fbc10b824cab2303c5ba4b08b86e183cbeb88",
+      "salt": "008a5a7908d83870fafbb5a3318237f3",
+      "name": "Akhil Gandloji",
+      "role": "freelancer",
+      "companyName": "LaunchPadX",
+      "createdAt": "2026-08-20T10:29:32.009Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "file_1787225959718_a5b0cb960e4e",
+      "userId": "user_1787221772008_8f8be3e4",
+      "userEmail": "akhilgandloji789@gmail.com",
+      "fileName": "pixel motivation wallpaper.jpg",
+      "originalName": "pixel motivation wallpaper.jpg",
+      "fileSize": 378224,
+      "mimeType": "image/jpeg",
+      "category": "image",
+      "projectTag": "General",
+      "storageFileName": "1787225959703_c759322a3029cb4e_pixel_motivation_wallpaper.jpg",
+      "uploadedAt": "2026-08-20T11:39:19.718Z",
+      "downloads": 0,
+      "supabasePath": "user_1787221772008_8f8be3e4/1787225959703_c759322a3029cb4e_pixel_motivation_wallpaper.jpg",
+      "supabaseUrl": "https://rkjotzbzcaahzcfdyocu.supabase.co/storage/v1/object/public/clientvault-deliverables/user_1787221772008_8f8be3e4/1787225959703_c759322a3029cb4e_pixel_motivation_wallpaper.jpg"
+    },
+    {
+      "id": "file_1787225817728_72e76d6c0c6d",
+      "userId": "user_designer_1",
+      "userEmail": "designer@clientvault.com",
+      "fileName": "pixel motivation wallpaper.jpg",
+      "originalName": "pixel motivation wallpaper.jpg",
+      "fileSize": 378224,
+      "mimeType": "image/jpeg",
+      "category": "image",
+      "projectTag": "General",
+      "storageFileName": "1787225817690_3f8023108b1c02bb_pixel_motivation_wallpaper.jpg",
+      "uploadedAt": "2026-08-20T11:36:57.728Z",
+      "downloads": 0,
+      "supabasePath": "user_designer_1/1787225817690_3f8023108b1c02bb_pixel_motivation_wallpaper.jpg",
+      "supabaseUrl": "https://rkjotzbzcaahzcfdyocu.supabase.co/storage/v1/object/public/clientvault-deliverables/user_designer_1/1787225817690_3f8023108b1c02bb_pixel_motivation_wallpaper.jpg"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "demo_session_designer_1",
+      "userId": "user_designer_1",
+      "expiresAt": 1818761761447
+    },
+    {
+      "token": "53a85116a42e50538401d4dffecaf098581bc492f252da470f9fda35915a21cd",
+      "userId": "user_designer_1",
+      "expiresAt": 1789817772341
+    },
+    {
+      "token": "69cb3ac2632276bea76f4758b1e9f631242ceb5d1a2b8482934b7aa75230bf54",
+      "userId": "user_1787221772008_8f8be3e4",
+      "expiresAt": 1789817947892
+    }
+  ]
+}
